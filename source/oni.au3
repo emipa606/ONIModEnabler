@@ -9,5 +9,4 @@ _ReplaceStringInFile ( $modConfig, '"enabled": false', '"enabled": true')
 
 $uninstallString = RegRead("HKLM64\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Steam App 457140", "UninstallString")
 $steamPath = (StringSplit($uninstallString, '"', 2))[1]
-MsgBox(0, "", $steamPath)
 Run($steamPath & ' -applaunch 457140')
