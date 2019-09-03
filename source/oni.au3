@@ -1,7 +1,7 @@
 #pragma compile(Icon, .\oni.ico)
 #pragma compile(ProductName, ONIModEnabler)
 #pragma compile(ProductVersion, 1.0)
-#pragma compile(FileVersion, 1.0.1.0)
+#pragma compile(FileVersion, 1.0.2.0)
 #pragma compile(FileDescription, Auto-enables all previously enabled mods before starting ONI)
 #include <File.au3>
 #include <FileConstants.au3>
